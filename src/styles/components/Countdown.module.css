@@ -54,6 +54,20 @@
 
 }
 
-.countDownButton:hover{
+.countDownButton:not(:disabled)hover{
     background: var(--blue-dark);
+}
+
+.countDownButtonActive{
+    background: var(--red);
+}
+
+.countDownButtonActive:not(:disabled)hover{
+    background: var(--red-dark);
+}
+
+.countDownButton:disabled{
+    background: var(--white);
+    color: var(--text);
+    cursor: not-allowed;
 }
