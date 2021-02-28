@@ -71,3 +71,7 @@
     color: var(--text);
     cursor: not-allowed;
 }
+
+.countDownButton img{
+    margin-left: 10px;
+}

@@ -43,6 +43,7 @@ export function Countdown() {
 
 				>
 					Ciclo encerrado
+					<img src="/icons/done.png" alt="Done"/>
 				</button>
 			) : (
 					<>
